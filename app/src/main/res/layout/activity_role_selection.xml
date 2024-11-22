@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+
+    android:orientation="vertical"
+    tools:context=".ui.users.RoleSelectionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/role_selection_title"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <!-- <string name="role_lector_description">Registrarte como Lector te permitirá ver investigaciones, comentar y valorar.</string>
+        <string name="role_investigator_description">Registrarte como Investigador te permitirá publicar investigaciones realizadas y ver comentarios.</string>
+    -->
+    <Button
+        android:id="@+id/btnGoLector"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/role_lector_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnGoInvestigator"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/role_investigator_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
+
+
+</LinearLayout>
